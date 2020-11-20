@@ -1,7 +1,7 @@
 # FE_595_Homework_4-SKLearn_Review
 Submission for homework four of FE 595
 
-Results of the Boston dataset linear regression:
+Results of the Boston dataset linear regression. The coefficient column shows how much each variable impacts the output of the regression, with large values being highly impactful and values near zero having little effect:
 |    | Parameter Name   |   Coefficient |
 |---:|:-----------------|--------------:|
 |  5 | RM               |   3.80987     |
