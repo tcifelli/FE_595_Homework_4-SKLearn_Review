@@ -44,6 +44,7 @@ def elbowAnalyzer():
     plt.title("Sum of Squared Errors for Iris Dataset")
     plt.xlabel("Number of Clusters")
     plt.ylabel("Sum of Squared Errors")
+    plt.savefig("Output Graphs/IrisElbowPlot.png")
     plt.show()
 
     #generate the elbow plot for the Wine data
@@ -52,6 +53,7 @@ def elbowAnalyzer():
     plt.title("Sum of Squared Errors for Wine Dataset")
     plt.xlabel("Number of Clusters")
     plt.ylabel("Sum of Squared Errors")
+    plt.savefig("Output Graphs/WineElbowPlot.png")
     plt.show()
 
     #for both of these datasets we see that the elbow plot "kinks" around the value of three, implying that using fewer
